@@ -315,3 +315,60 @@ span {
 .projects-box:hover .pro {
   transform: translateY(0);
 }
+
+/* FOOTER */
+
+.footer {
+  /* border-radius: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 10%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer p {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.footer-iconTop {
+  /* background-color: var(--main-color);
+      padding: 0.7rem;
+      border-radius: 0.7rem; */
+}
+
+.footer-iconTop a {
+  background-color: var(--main-color);
+  padding: 0.7rem;
+  border-radius: 0.7rem;
+  box-shadow: 0 0 1rem var(--main-color);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-iconTop a i {
+  font-size: 2.5rem;
+  color: var(--second-bg-color);
+}
+
+.footer-iconTop a:hover {
+  border-color: var(--main-color);
+  transform: scale(1.02);
+  box-shadow: 0 0 3rem var(--main-color);
+}
+
+@keyframes floatImage {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 992px);
