@@ -207,5 +207,60 @@ section {
     color: var(--main-color);
   }
 
+  /* SKILLS */
+
+  .skills {
+    padding-top: 7rem;
+    padding-bottom: 6rem;
+  }
   
+  .skills .heading {
+    color: #fff;
+    margin-bottom: 4rem;
+  }
+  
+  .skills-container {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .skills-box {
+    /* border: 2px solid red; */
+    color: #fff;
+    width: 20%;
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    border-radius: 2rem;
+    text-align: center;
+    border: 0.2rem solid var(--bg-color);
+    padding: 1rem;
+    transition: all 1s ease-in-out;
+  }
+  
+  .skills-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+    box-shadow: 0 0 3rem var(--main-color);
+  }
+  
+  .skills-box i {
+    font-size: 5rem;
+    color: var(--main-color);
+  }
+  
+  .skills-box h3 {
+    font-size: 2rem;
+  }
+  
+  .skills-box p {
+    font-size: 0.7rem;
+    margin: 1rem;
+    text-align: justify;
+  }
+  
+
+
 
